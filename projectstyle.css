@@ -1,0 +1,254 @@
+*{
+margin:0;
+padding:0;
+}
+
+#img1{
+    background-color: white;
+    margin-right: 250px;
+}
+
+#div1{
+    
+    width:100%;
+    height:50px;
+    background-color: #8C1616;
+    align-content: center;
+    z-index: 1;
+}
+
+#list1{
+    /* background-color: #bf5b4c; */
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    color:azure;
+    
+}
+
+.li{
+    text-decoration: none;
+    color:azure;
+    font-family:serif;
+    font-size: 21px;
+    
+}
+
+#div3{
+    
+    top: 100px;
+    width: 100%;
+    z-index: 0;
+}
+
+#d1{
+    height:50px;
+    font-size: 32px;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#d2{
+  
+     top:660px;
+    height:auto;
+    font-size:25px;
+    color:black;
+}
+
+p{
+   
+  font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#d3{
+    height:auto;
+    font-size:25px;
+    color:black;
+}
+
+#ul1{
+    padding-left: 25px;
+    font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h6{
+    font-size: 21px;
+}
+
+#aa{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+}
+
+#aa1{
+    width:40%;
+    height:220px;
+    display:block;
+}
+
+#aa2{
+    width:60%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#imgd{
+    border-radius: 12%;
+}
+
+#cl{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items: center;
+}
+
+#cl1{
+    width:40%;
+    height:235px;
+    display:flex;
+    justify-content: center;
+}
+
+#clib2{
+    width: 60%;
+    height:235px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#imd2{
+    border-radius: 12%;
+}
+
+#adr1,#adr2{
+    text-decoration: none;
+    color:black;
+}
+
+#scomp{
+    width:100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scomp1{
+    width:40%;
+    height:auto;
+    display: block;
+}
+
+#scomp2{
+    width:60%;
+    height:auto;
+    display: flex;
+    margin-left:43%;
+    align-items: center;
+}
+
+#imd3{
+    border-radius: 12%;
+}
+
+#acco{
+    width:100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accomod1{
+    width:40%;
+    height:auto;
+    display: block;
+   
+}
+
+#accomod2{
+    width:60%;
+    height:auto;
+    display: flex;
+    margin-left: 3.8%;
+    justify-content: center;
+    align-items: center;
+}
+
+#imd4{
+    border-radius: 12%;
+}
+
+#mess{
+    width:100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canta{
+    width:40%;
+    height:auto;
+    display: block;
+   
+}
+
+#cantb{
+    width:60%;
+    height:auto;
+    display: flex;
+    margin-left: 3.8%;
+    justify-content: center;
+    align-items: center;
+}
+
+#imd5{
+    border-radius: 12%;
+}
+
+#other{
+    width:100%;
+    height:auto;
+    display: flex;
+
+}
+
+#med{
+    width: 27%;
+    height: auto;
+    display: block;
+}
+
+#sac{
+    width: 33%;
+    height: auto;
+    display: block; 
+}
+
+#osf{
+     width: 20%;
+    height: auto;
+    display: block;
+}
+
+#bs{
+     width: 20%;
+    height: auto;
+    display: block;
+}
+

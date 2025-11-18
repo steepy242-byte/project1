@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage.lnmiit</title>
+</head>
+<body>   
+
+</div>
+    <div id="entire">
+
+    <div id="divimg"> <picture >
+              <img src="./LNMIIT-Logo-Transperant-Background.png" width="200px;" height="100px" id="imgd" alt="no_image">
+
+            </picture>
+    </div>
+
+        <div id="logbox">
+            <div id="logpg" >LOGIN</div>
+
+            <div id="boxbox">Enter Username: 
+            <input id="usern" type="text" placeholder="Username">
+            <br>
+            Enter Password: 
+            <input id="passw" type="password" placeholder="Password">
+            <button id="subm" type="submit">Sign In</button>
+            <button id="subf" type="submit">Forgot Password</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+
+         #entire{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+
+            background-image: url(./center-plaza.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+         }
+
+         #imgd{
+            background-color: white;
+
+         }
+
+         #divimg{
+            display: flex;
+            justify-content: center;
+            
+         }
+         
+         #logpg{
+            width: 25%;
+            height:25px;
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-bottom: 15px;
+         }
+
+         #logbox{
+            width:25%;
+            height:42%;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(242, 243, 243);
+         }
+         
+        #boxbox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+         #usern,#passw{
+            width:275px;
+            height:30px;
+         }
+        
+         #subm{
+            width:275px;
+            height:30px;
+             margin-top: 10px;
+            background-color:#28a745;
+            color: white;
+         }
+
+         #subf{
+            width:275px;
+            height:30px;
+             margin-top: 10px;
+            background-color:#007bff;
+            color: white;
+         }
+        
+    </style>
+</body>
+</html>
